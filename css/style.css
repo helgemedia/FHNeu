@@ -1,0 +1,132 @@
+body {
+  position: relative;
+}
+
+h1,
+h2,
+h3,
+p,
+div {
+  text-align: center;
+}
+
+.border {
+  position: relative;
+  //width: 250px;
+  //height: 460px;
+  margin-top: 20px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #8F98AB;
+  margin-right: auto;
+  margin-left: auto; 
+}
+
+.imgpos {
+  //position: relative;
+  //width: 250px;
+  //height: 460px;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto; 
+}
+
+.social {
+  padding-top: 20px;
+}
+
+
+.home {
+  position: relative;
+  //min-height: 100vh;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  color: #2b2525;
+  background-size: cover;
+  background-color: rgba(255,255,255,0.5);
+  background-blend-mode: lighten;
+  background-image: url(../img/background/home.jpg);
+}
+
+.baltrum {
+    position: relative;
+  //min-height: 100vh;
+  padding-top: 3%;
+  padding-bottom: 4%;
+  color: #2b2525;
+  background-size: cover;
+  background-color: rgba(255,255,255,0.6);
+  background-blend-mode: lighten;
+  background-image: url(../img/background/wo.jpg);
+}
+
+.langeoog {
+    position: relative;
+  //min-height: 100vh;
+  padding-top: 3%;
+  padding-bottom: 4%;
+  color: #2b2525;
+  background-size: cover;
+  background-color: rgba(255,255,255,0.6);
+  background-blend-mode: lighten;
+  background-image: url(../img/background/wu.jpg);
+}
+
+.location {
+    position: relative;
+  //min-height: 100vh;
+  padding-top: 3%;
+  padding-bottom: 4%;
+  color: #2b2525;
+  background-size: cover;
+  background-color: rgba(255,255,255,0.6);
+  background-blend-mode: lighten;
+  background-image: url(../img/background/loca.jpg);
+    background-position: center;
+}
+
+.overmap {
+    background:transparent; 
+    position:relative; 
+    width:100%;
+    height:400px; 
+    top:400px;  
+    margin-top:-400px; 
+}
+		
+iframe {
+    border:0;
+    width:100%; 
+    height:400px;
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+		}
+
+.contact {
+  position: relative;
+  min-height: 10vh;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  color: #fff;
+  background-color: rgba(0,0,0,0.4);
+  background-blend-mode: darken;
+  background-image: url(../img/background/contact.jpg);
+  background-size:100% auto;
+  background-position: bottom;
+}
+
+.contact-btn {
+  max-width: 40vh;
+  min-height: 10vh;
+  padding: 10px 50px 20px;
+  margin: auto;
+}
+
+footer {
+  min-height: 10vh;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  color: gray;
+  background-color: black;
+}
