@@ -3,7 +3,10 @@
 body {
     position: relative;
     font-family: 'Roboto', sans-serif;
-    
+}
+
+.navbar {
+    margin-bottom: 0;
 }
 
 h1 {
@@ -21,20 +24,23 @@ p {
      font-size: 1.2em;
      max-width: 960px;
      margin:0 auto;
-    
     }
 div {
      text-align: center;
     }
 
 .imgpos {
-  //position: absolute;
+  width: 100%;
+}
+
+.logopos {
+  position: relative;
   //width: 250px;
   //height: 460px;
   //margin-top: 20px;
-  //margin-right: auto;
-  //margin-left: auto;
-    width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  width: 70%;
 }
 
 .overpic {
@@ -136,4 +142,74 @@ footer {
 #helgelogo {
     display: inline;
     width: 20px;
+}
+
+.navbar-default {
+  background-color: #ffffff;
+  border-color: #9ac8de;
+}
+.navbar-default .navbar-brand {
+  color: #383c3d;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #8d8c8f;
+}
+.navbar-default .navbar-text {
+  color: #383c3d;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #383c3d;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #8d8c8f;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #8d8c8f;
+  background-color: #9ac8de;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #8d8c8f;
+  background-color: #9ac8de;
+}
+.navbar-default .navbar-toggle {
+  border-color: #9ac8de;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #9ac8de;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #383c3d;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #383c3d;
+}
+.navbar-default .navbar-link {
+  color: #383c3d;
+}
+.navbar-default .navbar-link:hover {
+  color: #8d8c8f;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #383c3d;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #8d8c8f;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #8d8c8f;
+    background-color: #9ac8de;
+  }
 }
