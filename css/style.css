@@ -36,12 +36,10 @@ div {
 
 .logopos {
   position: relative;
-  //width: 250px;
-  //height: 460px;
-  //margin-top: 20px;
+  padding-top: 5px;
   margin-right: auto;
   margin-left: auto;
-  width: 70%;
+  width: 50%;
 }
 
 .tablepos {
@@ -97,7 +95,7 @@ div {
 .cost {
   position: relative;
   padding-top: 3%;
-  padding-bottom: 4%;
+  padding-bottom: 3%;
   color: #2b2525;
   background-size: cover;
   background-color: rgba(255,255,255,0.9);
@@ -110,7 +108,7 @@ div {
 .location {
   position: relative;
   padding-top: 3%;
-  padding-bottom: 4%;
+  padding-bottom: 3%;
   color: #2b2525;
   background-size: cover;
   background-color: rgba(255,255,255,0.8);
